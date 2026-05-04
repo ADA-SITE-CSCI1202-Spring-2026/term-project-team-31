@@ -172,7 +172,7 @@ public class Dashboard extends BorderPane {
     private VBox buildLogPanel() {
         logArea.setEditable(false);
         logArea.setWrapText(true);
-        logArea.setStyle("-fx-background-color: #0d1b2a; -fx-text-fill: #d4f1b0; "
+        logArea.setStyle("-fx-background-color: #0d1b2a; -fx-text-fill:rgb(250, 1, 1); "
                 + "-fx-font-family: 'Monospaced'; -fx-font-size: 12;");
         VBox.setVgrow(logArea, Priority.ALWAYS);
 
